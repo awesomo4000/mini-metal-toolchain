@@ -31,11 +31,7 @@ Every tool the scripts use, and where it comes from:
 | `clang` | Command Line Tools | `verify.sh` (builds the GPU loader) |
 | `7zz` | optional, not Apple | `extract.sh` (reads the DMG without mounting) |
 
-Python is not used. `/usr/bin/lipo`, `/usr/bin/clang` and `/usr/bin/python3`
-exist on every Mac, but they are launchers that only work once the Command
-Line Tools are installed; without them they open the install dialog.
-`extract.sh` checks for the Command Line Tools first and stops with a clear
-message instead.
+`extract.sh` checks for the Command Line Tools first and stops with a clear message.
 
 ## Why this exists
 
