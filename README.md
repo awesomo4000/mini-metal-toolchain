@@ -1,3 +1,5 @@
+[![mini-metal-toolchain: shiny metallic apples shrinking in size](img/minimetal-small.png)](img/minimetal.png)
+
 # mini-metal-toolchain
 
 A 112 MB extract of Apple's Metal shader compiler that compiles `.metal`
